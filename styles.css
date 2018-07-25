@@ -1,0 +1,28 @@
+@font-face { font-family: SweetSansPro; font-weight: thin; src: url('SweetSansPro-Regular.otf'); } 
+ @font-face { font-family: SweetSansPro; font-weight: bold; src: url('SweetSansPro-Bold.otf');}
+body, html {
+  height: 100%;
+  font-family: SweetSansPro;
+}
+
+
+.parallax-static .background-img {
+  position: relative;
+  text-indent: -9999px;
+  background-position: top center;
+  height: 300vh;
+  background-image: url("pic1.jpg");
+}
+
+.parallax-moving {
+  font-size: 80vh;
+  position: fixed;
+  top: 15vh;
+  right: 0vh;
+  mix-blend-mode: difference;
+  color: #fff;
+}
+
+body h1{
+  font-weight: thin;
+}
